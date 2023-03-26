@@ -1,0 +1,210 @@
+body{
+    background: #4d0526;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-image: url(fondo2.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 700px;
+    height: 1000px;
+}
+
+.titulo{
+    display: inline-block;
+    background: #000;
+    position: absolute;
+    top: 10px;  
+    left: 0;
+    right: 0;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    outline: groove 2px #ffffff;
+    transition: .45s all;
+}
+
+.titulo:hover{
+    background: rgb(196, 38, 64);
+    width: 90%;
+}
+
+.titulo h1{
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 0px;
+    font-family: serif;
+    font-size: 50px;
+    transition: .45s all;
+}
+
+.titulo h1:hover{
+    color: #000;
+}
+
+.sinopsis{
+    outline: groove 2px #ffffff;
+    background: #000;
+    color: #ffffff;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    transition: .45s all;
+}
+
+.sinopsis:hover{
+    background: rgb(79, 87, 209);
+    width: 50%;
+}
+
+.sinopsis h2{
+    padding-top: 5px;
+    font-family: serif;
+    transition: .45s all;
+}
+
+.sinopsis h2:hover{
+    color: #000;
+}
+
+.texto{
+    font-style: italic;
+    font-weight: bold;
+    background: #000000;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    width: 330px;
+    height: 450px;
+    text-align: center;
+    outline: groove 2px #ffffff;
+    transition: .45s all;
+}
+
+.texto:hover{
+    color: #000;
+    background: #ac7309;
+}
+
+.p_uno{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: .45s all;
+}
+
+.p_uno:hover{
+    color: #000;
+}
+
+.p_dos{
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: .45s all;
+}
+
+.p_dos:hover{
+    color: #000;
+}
+
+.imagen{
+    background-image: url(asta.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 135px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    outline: groove 4px #000;  
+    transition: .45s all;
+}
+
+.imagen:hover{
+    background-image: url(Asta2.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat    ;
+    height: 450px;
+}
+
+.pie{
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    transition: .45s all;
+}
+
+.pie:hover{
+    width: 100%;
+    height: 300px;
+}
+
+.crun{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    height: 120px;
+    transition: .45s all;
+}
+
+.crun:hover{
+    padding-right: 100px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 240px;
+}
+
+.tio{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    transition: .45s all;
+}
+
+.tio:hover{
+    padding-left: 100px;
+    padding-bottom: 50px;
+    width: 280px;
+    height: 240px;
+}
+
+.funi{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    transition: .45s all;
+}
+
+.funi:hover{
+    padding-bottom: 50px;
+    width: 180px;
+    height: 220px;
+}
